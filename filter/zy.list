@@ -10,6 +10,3 @@ ip-cidr,128.136.157.164/32,direct
 ip-cidr,63.217.225.0/24,direct
 # 5号 VPN
 ip-cidr,128.136.157.172/32,direct
-
-# filscan
-host-suffix,filscan.io,direct
