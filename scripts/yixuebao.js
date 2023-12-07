@@ -12,7 +12,7 @@ hostname = ccsfdx.yxbyun.com
 
 **************************/
 
-var obj = JSON.parse($response.body);
+var obj = JSON.parse($request.body);
 obj.studentExamPaper.bigContent.forEach(bigContent => {
     bigContent.smallContent.forEach(smallContent =>{
       smallContent.question.studentAnswer = smallContent.question.questionAnswer
