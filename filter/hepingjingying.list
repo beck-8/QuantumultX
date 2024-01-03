@@ -21,7 +21,7 @@ HOST-KEYWORD,safebrowsing.googleapis.com,PROXY
 HOST-KEYWORD,safebrowsing.urlsec.qq.com,PROXY
 HOST-KEYWORD,anticheatexpert,PROXY
 HOST-KEYWORD,down.anticheatexpert.com,PROXY
-HOST-KEYWORD,https://down.anticheatexpert.com/,PROXY
+HOST-KEYWORD,down.anticheatexpert.com,PROXY
 HOST-KEYWORD,mazu.m.qq.com,PROXY
 HOST-KEYWORD,stat.tpns.sh.tencent.com,PROXY
 HOST-KEYWORD,jiazhang.qq.com,PROXY
