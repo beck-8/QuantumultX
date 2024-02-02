@@ -1,3 +1,4 @@
+HOST,mitm.it,PROXY
 HOST-SUFFIX,baidu.com,PROXY
 HOST-SUFFIX,www.baidu.com,PROXY
 HOST-SUFFIX,m.baidu.com,PROXY
