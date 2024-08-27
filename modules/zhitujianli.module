@@ -1,0 +1,7 @@
+#!name=zhitujianli
+#!desc=职徒简历会员解锁
+
+[Script]
+zhitujianli = type=http-response,pattern=^https?:\/\/api.utrainee.com\/utrainee\/app\/user\/getUserInfo,requires-body=1,script-path=https://raw.githubusercontent.com/beck-8/QuantumultX/main/scripts/zhitujianli.js
+[MITM]
+hostname= %APPEND% api.utrainee.com
