@@ -6,7 +6,7 @@
 QuantumultX:
 
 [rewrite_local]
-^https?:\/\/api.utrainee.com\/utrainee\/app\/use\r/getUserInfo url script-response-body https://raw.githubusercontent.com/beck-8/QuantumultX/main/scripts/zhitujianli.js
+^https?:\/\/api.utrainee.com\/utrainee\/app\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/beck-8/QuantumultX/main/scripts/zhitujianli.js
 
 [mitm]
 hostname = api.utrainee.com
