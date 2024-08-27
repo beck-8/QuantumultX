@@ -13,9 +13,11 @@ hostname = api.utrainee.com
 **************************/
 
 var obj = JSON.parse($response.body);
+obj.user.ifMember = 1
+obj.user.gmtEnd = "2099-01-01"
+
 obj.user.ifLifeMember = 1
 obj.user.ifCourseMember = 1
-obj.user.gmtStartCourse = "2099-01-01"
 obj.user.gmtEndCourse = "2099-01-01"
 
 $done({body: JSON.stringify(obj)});
